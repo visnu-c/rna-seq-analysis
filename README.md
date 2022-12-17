@@ -26,5 +26,5 @@
 - `sbatch counting.slurm` uses `htseq-count` for countring 
 
 ## Visualization and Analysis with R
-- Workflow: Import, filter, log transform, distance heatmap, PCA, gene heatmap, BCV plot, smear plot, and differential expression analysis 
+- Import, filter, log transform, distance heatmap, PCA, gene heatmap, BCV plot, smear plot, differential expression analysis 
 - Codes are in the rscript 
