@@ -7,7 +7,7 @@
 
 ## Quality check
 - `srun -c 9 --mem=8000 --x11 /usr/local/FastQC/fastqc --threads 9` to check RNA-Seq quality using `FastQC` graphically  
-- -c for CPU, --x11 for graphical window, --threads for CPU threads
+  - -c for CPU, --x11 for graphical window, --threads for CPU threads
 
 ## Trimming 
 - `sbatch trimming.slurm` to trim off the adapter sequences using `trim_galore`
