@@ -6,12 +6,12 @@
 #JOB LOG HEADER
 perl -E 'say"="x80'; echo "JOB STARTED: `date`"; echo "NODE: `hostname`"; echo "SCRIPT ${0}:"; cat $0; perl -E 'say"="x80'
 
-cd /destinaton/folder
+cd /work/binf694/project_1/results/person
 
 #SOFTWARE REQUIREMENTS
 
 #VARIABLES - ran individually 
-INFILE=/file/location/ran_seq_sample.s.fastq.gz
+INFILE=/work/binf694/project_1/raw_data/cerebralcortex/brain_a.s.fastq.gz
 
 # COMMAND(s) TO RUN
 trim_galore --length 50 --quality 28 ${INFILE}
