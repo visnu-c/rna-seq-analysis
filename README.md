@@ -16,10 +16,11 @@
 - --threads for CPU threads
 
 ## Trimming 
-- run trimming.slurm `sbatch trimming.slurm`
+- run trimming.slurm `sbatch trimming.slurm` whcih will use `trim_galore`
 - check if the job running with `squeue`
 - check if any errors or warnings `less slurm-123456.out`
-- view trimming report `less rna_seq.s.fastq.gz_trimming_report.txt`  
+- view trimming report `less rna_seq.s.fastq.gz_trimming_report.txt
+- `less brain_a.s.fastq.gz_trimming_report.txt` to check trimming report 
 
 ## Mapping 
 - with mapping.slurm to human genome draft GRCh38
