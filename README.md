@@ -1,9 +1,9 @@
 # RNA-Seq analysis 
 
 ## Biomix 
-`ssh -XC usernmae@biomix.dbi.udel.edu` to log in
-`scp /local/location/file.name.ext username@biomix.dbi.udel.edu:/target/folder` to copy file to Biomix 
-`scp -r username@biomix.dbi.udel.edu:/target/file.name.ext /local/location` to copy file from Biomix to local folder 
+- `ssh -XC usernmae@biomix.dbi.udel.edu` to log in
+- `scp /local/location/file.name.ext username@biomix.dbi.udel.edu:/target/folder` to copy file to Biomix 
+- `scp -r username@biomix.dbi.udel.edu:/target/file.name.ext /local/location` to copy file from Biomix to local folder 
 
 ## Quality check
 `srun -c 9 --mem=8000 --x11 /usr/local/FastQC/fastqc --threads 9` to check RNA-Seq quality using `FastQC` in a graphical window 
