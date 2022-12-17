@@ -26,6 +26,9 @@
 - `sbatch mapping.slurm` to map RNA-Seq data to human genome draft GRCh38
 - `samtools view brain_a.s_trimmed.bam | less` to see the .bam file 
 
+## Indexing 
+- `srun -c 3 --mem 32000 --x11 /usr/local/IGV/igv.sh` to load indexed .bam file to IGV 
+
 ## Convertion 
 
 ## Indexing 
