@@ -10,7 +10,7 @@
 `scp -r username@biomix.dbi.udel.edu:/target/file.name.ext /local/location`
 
 ## Quality check
-`srun -c 9 --mem=8000 --x11 /usr/local/FastQC/fastqc --threads 9` - to run FastQC in a graphical window 
+`srun -c 9 --mem=8000 --x11 /usr/local/FastQC/fastqc --threads 9` to run FastQC in a graphical window 
 - -c for CPU
 - --x11 for graphical window 
 - --threads for CPU threads
