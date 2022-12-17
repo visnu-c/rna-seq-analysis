@@ -23,7 +23,8 @@
 - `less brain_a.s.fastq.gz_trimming_report.txt` to check trimming report 
 
 ## Mapping 
-- with mapping.slurm to human genome draft GRCh38
+- `sbatch mapping.slurm` to map RNA-Seq data to human genome draft GRCh38
+- `samtools view brain_a.s_trimmed.bam | less` to see the .bam file 
 
 ## Convertion 
 
