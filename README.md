@@ -6,7 +6,7 @@
 - `scp -r username@biomix.dbi.udel.edu:/target/file.name.ext /local/location` to copy file from Biomix to local folder 
 
 ## Quality check
-`srun -c 9 --mem=8000 --x11 /usr/local/FastQC/fastqc --threads 9` to check RNA-Seq quality using `FastQC` in a graphical window 
+- `srun -c 9 --mem=8000 --x11 /usr/local/FastQC/fastqc --threads 9` to check RNA-Seq quality using `FastQC` in a graphical window 
 - -c for CPU, --x11 for graphical window, --threads for CPU threads
 
 ## Trimming 
